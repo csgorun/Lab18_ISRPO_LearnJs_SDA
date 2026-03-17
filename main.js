@@ -86,3 +86,23 @@ person.age = 50;
 person.city = "Volgograd";
 console.log(person);
 person = { name: "Stas" };
+
+console.log(typeof "текст"); // "string"
+console.log(typeof 42); // "number"
+console.log(typeof true); // "boolean"
+console.log(typeof undefined); // "undefined"
+console.log(typeof null); // !!!"object"
+console.log(typeof {}); // "object"
+console.log(typeof []); // "object"
+console.log(typeof function () {}); // "function"
+
+let numberX = null;
+console.log(numberX === null);//true
+
+let newPrice = 10;
+console.log(newPrice);
+console.log(typeof newPrice);
+
+newPrice = "Цена";
+console.log(newPrice);
+console.log(typeof newPrice)
