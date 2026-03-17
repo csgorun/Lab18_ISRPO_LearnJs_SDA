@@ -106,3 +106,23 @@ console.log(typeof newPrice);
 newPrice = "Цена";
 console.log(newPrice);
 console.log(typeof newPrice)
+
+//в строку
+let num = 43;
+let str = String(num);
+let str2 = parseInt("42.5");
+let float = parseFloat("3.14");
+let int3 = +"99";
+
+let bool1 = Boolean(1);
+let bool2 = !!1;
+let bool3 = Boolean(0);
+let bool4 = Boolean("");
+
+console.log("5" + 3);
+console.log("5" - 3);
+console.log("5" * "2");
+console.log(true + 1);
+console.log(false + 1);
+console.log(null + 1);
+console.log(undefined + 1);
