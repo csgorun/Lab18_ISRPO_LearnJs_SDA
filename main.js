@@ -147,4 +147,87 @@ let arr1 = [1, 2, 3];
 let arr2 = [1, 2, 3];
 console.log(arr1 === arr2);
 
+let yourAge = 18;
+
+if (yourAge >= 18) {
+    console.log("Доступ разрешен");
+}else {
+    console.log("Доступ запрещен");
+}
+
+
+let temperature1;
+if (temperature1 < 0) {
+    console.log("Холодно");
+}else if (0 < temperature1 < 20) {
+    console.log("Прохладно");
+}else if (temperature > 20 ){
+    console.log("Тепло");
+}
+
+
+
+
+let isLoggedIn = true; 
+let isAdmin = false;    
+
+
+
+if (isLoggedIn && isAdmin) {
+    console.log("Полный доступ");
+} 
+else if (isLoggedIn && !isAdmin) {
+    console.log("Ограниченный доступ");
+} 
+else {
+    console.log("Доступ запрещён");
+}
+
+
+
+
+
+let a3 = 10;       
+let b3 = "10";      
+
+let resultLoose = (a3 == b3);   
+let resultStrict = (a3 === b3);
+
+
+console.log(`Нестрогое неравенство ${a3 == b3}`);
+console.log( `Строгое равнество ${a3 === b3}`);
+
+let message = age >= 18 ? "Совершеннолетний" : "Несовершенно летний";
+console.log(message);
+
+
+let day = 3;
+switch (day) {
+    case 1: console.log("Понедельник"); break;
+    case 2: console.log("Вторник"); break;
+    case 3: console.log("Среда"); break;
+    default: console.log("Неизвестный день");
+}
+
+
+
+let mounthNumber = 12;
+switch (mounthNumber) {
+    case 1: console.log("Январь"); break;
+    case 2: console.log("Февраль"); break;
+    case 3: console.log("Март"); break;
+    case 4: console.log("Апрель"); break;
+    case 5: console.log("Май"); break;
+    case 6: console.log("Июнь"); break;
+    case 7: console.log("Июль"); break;
+    case 8: console.log("Август"); break;
+    case 9: console.log("Сентябрь"); break;
+    case 10: console.log("Октябрь"); break;
+    case 11: console.log("Ноябрь"); break;
+    case 12: console.log("Декабрь"); break;
+     default: console.log("Нет такого месяца");
+}
+
+
+
 
